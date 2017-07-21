@@ -1,4 +1,3 @@
-
 // setting up global variables
   var userPick;
   var randy;
@@ -37,7 +36,7 @@ console.log(alphaRandy)
   guessLText.textContent = guess;
 
 //Display inital pic by finding id "pic" and inserting new src
-  document.getElementById("pic").src="../assets/you.jpg";
+  document.getElementById("pic").src="assets/you.jpg";
 
 // START upon the action of user input
 
@@ -45,7 +44,7 @@ console.log(alphaRandy)
     userPick = event.key;
     guessedLetters.push(userPick);
     guess--;
-    document.getElementById("pic").src="../assets/you.jpg";
+    document.getElementById("pic").src="assets/you.jpg";
 
     if (guess >= 1) {
 
@@ -57,7 +56,7 @@ console.log(alphaRandy)
           var answer = "";
           var alphabet = "abcdefghijklmnopqrstuvwxyz";
           alphaRandy=alphabet[Math.floor(Math.random() * alphabet.length)];
-          document.getElementById("pic").src="../assets/winner.png";
+          document.getElementById("pic").src="assets/winner.png";
 
       }
       else {
@@ -72,7 +71,7 @@ console.log(alphaRandy)
       var answer = "";
       var alphabet = "abcdefghijklmnopqrstuvwxyz";
       alphaRandy=alphabet[Math.floor(Math.random() * alphabet.length)]; 
-      document.getElementById("pic").src="../assets/school.jpg";     
+      document.getElementById("pic").src="assets/school.jpg";     
 
 
     }
