@@ -1,0 +1,18 @@
+  body {
+    background-image: url("../assets/psybg.jpg");
+  }
+
+  #pic {
+    margin: auto;
+    width: 80%;
+  }
+
+  .container {
+    background-color: white;
+    width: 80%;
+    padding-bottom: 80px;
+  }
+
+  .col-xs-6 {
+    text-align: center;
+  }
