@@ -4,15 +4,26 @@
 
   #pic {
     margin: auto;
-    width: 80%;
+    width: 50%;
   }
 
   .container {
     background-color: white;
-    width: 80%;
+    width: 50%;
     padding-bottom: 80px;
+    ;
   }
 
   .col-xs-6 {
     text-align: center;
   }
+
+  h1 {
+    font-family:'Chewy', cursive;
+  }
+
+  div {
+      font-family:'Chewy', cursive;
+      font-size: 110%;
+
+   }
